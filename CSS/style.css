@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    font-family: 'Tajawal', sans-serif;
+}
+
+body {
+    background-color: #ededed;
+}
+
+header {
+    background-color: white;
+    height: 10vh;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width: 100%;
+    gap: 5%;
+}
+
+header .login7 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav{
+    width: 40vw;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 5%;
+    transition: 0.6s;
+}
+
+nav a:hover {
+    border-bottom: 16px solid #0d8f75;
+}
+
+header img {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin-right: 50px;
+    margin-top: 75px;
+    height: 130px;
+    border-radius: 0 0 30px 30px;
+}
+
+.backgrond-quran {
+    background-image: url(/IMG/mosqueweb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 30%;
+    width: 100%;
+}
+
+.backgrond-quran h1 {
+    font-size: 62px;
+    margin:  -250px -350px 0 350px;
+}
+
+.backgrond-quran p {
+    font-size: 32px;
+    margin:  0 -350px 0 650px;
+}
+
+input[type=button]{
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin: 20px -350px 0 0;
+}
+
+.quran-ayh {
+    margin: 50px;
+}
+
+.quran-ayh h1 {
+    text-align: center;
+    color: #214570;
+
+}
+
+/* .card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cards {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    margin: 150px 400px 0 0; 
+    text-align: center;
+    padding: 1%;
+}
+
+.cards h1 {
+    color: #214570;
+    margin-bottom: 30px;
+    text-align: right;
+}
+
+.cards img {
+    border-radius: 20px 20px 0 0;
+    width: 400px;
+    height: 200px;
+} */
+
+.title5 {
+    margin-left: 70%;
+}
+
+.title5 p {
+    color: #214570;
+}
+
+.title5 h2 {
+    color: #0d8f75;
+}
+
+.title7 {
+    margin-top: -50px;
+    margin-right: 60%;
+}
+
+.title7 p {
+    color: #214570;
+}
+
+.title7 h2 {
+    color: #0d8f75;
+}
+
+/* الفوتر ومحتوياته */
+footer{
+    background-color: #214570;
+}
+.footerContainer{
+    height: 1vh;
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: -50px 4% 0 5%;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: #45926e;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+.socialIcons a:hover{
+    background-color: #45926e;
+}
+
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.FooterNav{
+    margin: 30px 0 ;
+}
+
+.FooterNav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.FooterNav ul{
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+    display: block;
+    text-align: center;
+}
+.FooterNav ul li a:hover{
+    opacity: 1;
+
+}
+.FooterBottom{
+    background-color: #45926e;
+    padding: 20px;
+    text-align: center;
+}
+.FooterBottom p{
+    color: rgb(255, 255, 255);
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+.FooterNav li{
+    color: #ffffff;
+}
+
+.aboutus a {
+    margin: 2%;
+    text-decoration: none;
+    color: white;
+}
