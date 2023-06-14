@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-family: 'Tajawal', sans-serif;
 }
 
@@ -20,25 +20,27 @@ header {
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     width: 100%;
+    gap: 1%;
 }
 
 header .login7 {
-    display: flex;
-    justify-content: flex-end;
+    width: 20vw;
+    margin-right: 30%;
 }
 
 header nav{
     width: 40vw;
 }
 
-a {
+nav a {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    margin-left: 5%;
+    margin-left: 3%;
+    transition: 0.6s;
 }
 
-a:hover {
-    text-decoration: underline;
+nav a:hover {
+    border-bottom: 16px solid #0d8f75;
 
 }
 
@@ -48,4 +50,113 @@ header img {
     margin-top: 75px;
     height: 130px;
     border-radius: 0 0 30px 30px;
+}
+
+.backgrond-aboutus {
+    background-image: url(/IMG/questionnaireweb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 30%;
+    width: 100%;
+}
+
+.backgrond-aboutus h1 {
+    font-size: 62px;
+    margin:  -250px -350px 0 350px;
+}
+
+.backgrond-aboutus p {
+    font-size: 26px;
+    margin:  0 -350px 0 200px;
+}
+
+/* الفوتر ومحتوياته */
+footer{
+    background-color: #214570;
+    width: 100%;
+    position: absolute;
+}
+.footerContainer{
+    position: absolute;
+    height: 1vh;
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 7px;
+    background-color: white;
+    margin: -60px 4% 60px 5%;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: #45926e;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+.socialIcons a:hover{
+    background-color: #45926e;
+}
+
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.FooterNav{
+    margin: 30px 0 ;
+}
+
+.FooterNav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.FooterNav ul{
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+    display: block;
+    text-align: center;
+}
+.FooterNav ul li a:hover{
+    opacity: 1;
+
+}
+.FooterBottom{
+    background-color: #45926e;
+    padding: 20px;
+    text-align: center;
+}
+.FooterBottom p{
+    color: rgb(255, 255, 255);
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+.FooterNav li{
+    color: #ffffff;
+}
+
+.aboutus a {
+    margin: 3% 2% 0 2%;
+    display: inline-flex;
+    align-items: end;
+    text-decoration: none;
+    color: white;
 }
