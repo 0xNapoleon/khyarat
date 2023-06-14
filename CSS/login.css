@@ -1,0 +1,245 @@
+/* الخط */
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+
+/* لون الصفحه */
+body {
+    background-color: #ededed;
+}
+
+/* الناف */
+
+header {
+    background-color: white;
+    height: 10vh;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width: 100%;
+    gap: 1%;
+}
+
+/* خيار تسجيل الدخول في الناف */
+
+header .login7 {
+    width: 20vw;
+    margin-right: 30%;
+}
+
+/* المسافات بين الجمل الي في الناف */
+
+header nav{
+    width: 40vw;
+}
+/* الخيارات الي في الناف */
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 3%;
+    transition: 0.6s;
+}
+
+nav a:hover {
+    border-bottom: 16px solid #0d8f75;
+}
+
+/* خيار إنشاء الحساب  */
+
+.signup {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-top: -92px;
+    margin-right: 30px;
+    position: absolute;
+}
+/* الخط الي تحت إنشاء الحساب */
+
+.signup:hover {
+    text-decoration: underline;
+
+}
+/* logo الشادو الي ورا ال */
+
+header img {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin-right: 50px;
+    margin-top: 75px;
+    height: 130px;
+    border-radius: 0 0 30px 30px;
+}
+h2{
+    color: #45926e;
+    font-weight: bold;
+    font-size:30px;
+    text-align:center;
+    margin-bottom: 0%;
+}
+input[type=text] 
+{
+    width: 400px;
+    height: 40px;
+    margin-bottom: 22px;
+    margin-left: 0px;
+    border: 1px solid #a6b6a9;
+    border-radius: 10px;
+    outline: none;
+    
+}
+
+input[type=checkbox]{
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+
+input[type=submit]{
+    width:200px;
+    height: 0px;
+    margin-right: 20px;
+    margin-top:20px ;
+    height: 40px;
+    background-color: #51965d;
+    margin-left: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 18px;
+    outline: none;
+    margin-top: 15%;
+} 
+
+form img{
+    margin-top:20px ;
+    height: 90px;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 50px 0;
+}
+
+form{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 30px; 
+    width:450px;
+    height: 500px;
+    border: 1px solid #ffffff;
+    background-color: white;
+    text-align: center;
+
+}
+
+h4{
+    margin-left: 330px;
+    margin-top:20px ;
+    height: 30px;
+}
+h5{
+    margin-left: 100px;
+    margin-top:20px ;
+    height: 90px;
+    color: #45926e;
+}
+
+
+/* الفوتر ومحتوياته */
+footer{
+    background-color: #214570;
+    width: 100%;
+    position: absolute;
+}
+.footerContainer{
+    position: absolute;
+    height: 1vh;
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 7px;
+    background-color: white;
+    margin: -60px 4% 60px 5%;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: #45926e;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+.socialIcons a:hover{
+    background-color: #45926e;
+}
+
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.FooterNav{
+    margin: 30px 0 ;
+}
+
+.FooterNav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.FooterNav ul{
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+    display: block;
+    text-align: center;
+}
+.FooterNav ul li a:hover{
+    opacity: 1;
+
+}
+.FooterBottom{
+    background-color: #45926e;
+    padding: 20px;
+    text-align: center;
+}
+.FooterBottom p{
+    color: rgb(255, 255, 255);
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+.FooterNav li{
+    color: #ffffff;
+}
+
+.aboutus a {
+    margin: 3% 2% 0 2%;
+    display: inline-flex;
+    align-items: end;
+    text-decoration: none;
+    color: white;
+}
