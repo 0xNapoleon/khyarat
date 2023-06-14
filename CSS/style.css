@@ -20,12 +20,12 @@ header {
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     width: 100%;
-    gap: 5%;
+    gap: 1%;
 }
 
 header .login7 {
-    display: flex;
-    justify-content: flex-end;
+    width: 20vw;
+    margin-right: 30%;
 }
 
 header nav{
@@ -35,7 +35,7 @@ header nav{
 nav a {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    margin-left: 5%;
+    margin-left: 3%;
     transition: 0.6s;
 }
 
@@ -70,12 +70,16 @@ header img {
     margin:  0 -350px 0 650px;
 }
 
-input[type=button]{
+.button-quran {
+    text-align: center;
+    font-size: 18px;
+    color: #0d8f75;
     width: 150px;
     height: 50px;
     border-radius: 20px;
     border: 1px solid white;
     margin: 20px -350px 0 0;
+    cursor: pointer;
 }
 
 .quran-ayh {
@@ -88,66 +92,21 @@ input[type=button]{
 
 }
 
-/* .card {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.cards {
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    background-color: white;
-    border-radius: 10px;
-    width: 500px;
-    height: 400px;
-    position: absolute;
-    margin: 150px 400px 0 0; 
+.quran-ayh p {
+    font-size: 20px;
     text-align: center;
-    padding: 1%;
-}
-
-.cards h1 {
     color: #214570;
-    margin-bottom: 30px;
-    text-align: right;
-}
-
-.cards img {
-    border-radius: 20px 20px 0 0;
-    width: 400px;
-    height: 200px;
-} */
-
-.title5 {
-    margin-left: 70%;
-}
-
-.title5 p {
-    color: #214570;
-}
-
-.title5 h2 {
-    color: #0d8f75;
-}
-
-.title7 {
-    margin-top: -50px;
-    margin-right: 60%;
-}
-
-.title7 p {
-    color: #214570;
-}
-
-.title7 h2 {
-    color: #0d8f75;
+    margin: 0 0 0 0;
 }
 
 /* الفوتر ومحتوياته */
 footer{
     background-color: #214570;
+    width: 100%;
+    position: absolute;
 }
 .footerContainer{
+    position: absolute;
     height: 1vh;
     width: 100%;
     padding: 70px 30px 20px;
@@ -159,9 +118,9 @@ footer{
 }
 .socialIcons a{
     text-decoration: none;
-    padding: 10px;
-    background-color: rgb(255, 255, 255);
-    margin: -50px 4% 0 5%;
+    padding: 7px;
+    background-color: white;
+    margin: -60px 4% 60px 5%;
     border-radius: 50%;
     transition: 0.5s;
 }
@@ -223,7 +182,121 @@ footer{
 }
 
 .aboutus a {
-    margin: 2%;
+    margin: 3% 2% 0 2%;
+    display: inline-flex;
+    align-items: end;
     text-decoration: none;
     color: white;
+}
+
+/* الكاردات */
+
+.card-block{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 20px;
+    height: 420px;
+    text-align: center;
+    width: 70vh; 
+}
+
+.card-block h1 {
+    text-align: right;
+    margin-right: 10px; 
+    color: #214570;
+    margin: 15px 15px 15px 0;
+}
+
+.img-h {
+    width: 350px;
+    border-radius: 30px 30px 0 0;
+    /* margin: 1%; */
+    border-bottom: 10px solid #0d8f75;
+}
+
+.card-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1%;
+    margin-bottom: 50px;
+}
+
+.text-card {
+    text-align: right;
+    font-size: 12px;
+    color: grey;
+    width: 180px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    margin: 30px 0 -50px 200px;
+    position: absolute;
+}
+
+.button-card {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    width: 120px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #214570;
+    border: 1px solid #214570;
+    margin: 30px 200px -50px 0;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.button-card:hover {
+    opacity: 0.8;
+}
+
+.title5 {
+    margin-top: -16%;
+    margin-left: 70%;
+}
+
+.title5 p {
+    color: #214570;
+}
+
+.title5 h2 {
+    color: #0d8f75;
+}
+
+.title7 {
+    margin-right: 58%;
+    width: 40%;
+}
+.title7 p {
+    color: #214570;
+}
+
+.title7 h2 {
+    color: #0d8f75;
+}
+
+/* للمزيد من فرص التبرع زر */
+
+.for-more-donate {
+    margin: 100px;
+}
+
+.button-for-more {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #214570;
+    border: 1px solid #214570;
+    margin: 0 400px 0 0;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.button-for-more:hover {
+    opacity: 0.8;
 }
