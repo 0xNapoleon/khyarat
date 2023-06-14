@@ -116,9 +116,9 @@ header img {
 }
 
 .text-card {
-    margin-right: 50px;
+    padding: 1%;
     text-align: right;
-    font-size: 12px;
+    font-size: 15px;
     color: grey;
     width: 180px;
     height: 50px;
