@@ -95,7 +95,7 @@ input[type=checkbox]{
 
 
 
-input[type=submit]{
+button{
     width:200px;
     height: 0px;
     margin-right: 20px;
@@ -110,6 +110,11 @@ input[type=submit]{
     outline: none;
     margin-top: 15%;
 } 
+
+button a {
+    text-decoration: none;
+    color: #ffffff;
+}
 
 form img{
     margin-top:20px ;
